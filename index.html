@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Cannon Game</title>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  <body>
+    <div id="container">
+      <div id="player"><img id="barrel" src="barrel.png" draggable="false"><img id="cannon_stand" src="cannon_stand.png" draggable="false"></div>
+      <div id="target"><img id="target_img" src="target.png" draggable="false"></div>
+      <div id="bullet"><img id="bullet_img" src="ball.png" draggable="false"></div>
+      <div id="remaining_Bullets"><span id="bullet_Text">Remaining Cannonballs: </span></div>
+      <div id="player_Score"><span id="score_Text">Player Score: </span><span id="level_Text">Current Level: </span></div>
+    </div>
+    <script src="jquery-3.3.1.js"></script>
+    <script src="game.js"></script>
+    <button id="reset_button">Reset</button>
+  </body>
+</html>

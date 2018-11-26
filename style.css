@@ -1,0 +1,101 @@
+#container{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin:auto;
+  height: 720px;
+  width: 1280px;
+  background: url("serenity.jpg");
+  overflow: hidden;
+  z-index: -11;
+
+  border: 65px solid black;
+  border-radius: 75px;
+  box-shadow: 10px 10px 10px firebrick;
+
+}
+#barrel {
+  width: 100%;
+  position: absolute;
+  bottom: 25px;
+  transform-origin: 20% 48%;
+}
+#cannon_stand {
+  width: 50%;
+  position: absolute;
+}
+#player {
+  width: 100px;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  left: 640px;
+
+}
+
+#target{
+  width: 75px;
+  height: 75px;
+  background-color: firebrick;
+  position: absolute;
+  /* top: 0; */
+  bottom: 645px;
+  left: 640px;
+}
+#target_img {
+  width: 100%;
+  height: 100%;
+}
+
+#bullet {
+  width: 15px;
+  height: 15px;
+  /* background-color: blue; */
+  position: absolute;
+  bottom: 35px;
+  left: 659px;
+  z-index: -10;
+}
+#bullet_img {
+  width: 100%;
+  height: 100%;
+}
+
+#remaining_Bullets {
+  position: absolute;
+  left: 50px;
+  bottom: 0px;
+}
+#player_Score {
+  position: absolute;
+  right: 50px;
+  bottom: 0px;
+}
+#score_Text {
+  display: block;
+  right: 50px;
+  bottom: 0px;
+}
+#level_Text {
+  display: block;
+  right: 50px;
+  bottom: 25px;
+}
+#reset_button {
+  position: absolute;
+  bottom: 70px;
+  right: 450px;
+}
+body {
+  user-select: none;
+}
+span {
+  font-size: 25px;
+  text-shadow: 3px;
+  color: white;
+}
+img {
+  user-select: none;
+}
